@@ -18,8 +18,11 @@
   },
   "homepage": "https://github.com/Shinyaigeek/playground-serverside-rollup#readme",
   "dependencies": {
+    "@rollup/plugin-typescript": "^8.3.2",
     "@rollup/plugin-virtual": "^2.1.0",
+    "esbuild": "^0.14.39",
     "rollup": "^2.74.1",
+    "rollup-plugin-esbuild": "^4.9.1",
     "vitest": "^0.12.8"
   },
   "devDependencies": {

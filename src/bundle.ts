@@ -1,5 +1,6 @@
 import virtual from "@rollup/plugin-virtual"
 import { OutputAsset, OutputChunk, rollup } from "rollup"
+import esbuild from 'rollup-plugin-esbuild'
 
 function isChunk(chunkOrAsset: OutputAsset | OutputChunk): chunkOrAsset is OutputChunk {
     // @ts-ignore
@@ -11,7 +12,8 @@ export const bundle: (code: string) => Promise<string> = async function(code) {
         plugins: [
             virtual({
                 "entrypoint.ts": code,
-            })
+            }),
+            esbuild()
         ],
         input: "entrypoint.ts",
     });
