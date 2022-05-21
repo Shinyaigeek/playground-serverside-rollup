@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Shinyaigeek/playground-serverside-rollup#readme",
   "dependencies": {
+    "@rollup/plugin-node-resolve": "^13.3.0",
     "@rollup/plugin-typescript": "^8.3.2",
     "@rollup/plugin-virtual": "^2.1.0",
     "esbuild": "^0.14.39",

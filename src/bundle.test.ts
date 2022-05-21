@@ -3,7 +3,8 @@ import { expect, test } from "vitest";
 import { bundle } from "./bundle";
 
 const code = `
-import "@internal/edgejs";
+import { h } from "./mods/hoge";
+console.log("hoge", h);
 console.log("my-code");
 `;
 
