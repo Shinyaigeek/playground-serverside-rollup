@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@rollup/plugin-virtual@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@rollup/plugin-virtual/-/plugin-virtual-2.1.0.tgz#a77bfd0dff74f0203401c75287ff4d1a1cfbc816"
+  integrity sha512-CPPAtlKT53HFqC8jFHb/V5WErpU8Hrq2TyCR0A7kPQMlF2wNUf0o1xuAc+Qxj8NCZM0Z3Yvl+FbUXfJjVWqDwA==
+
 "@types/chai-subset@^1.3.3":
   version "1.3.3"
   resolved "https://registry.yarnpkg.com/@types/chai-subset/-/chai-subset-1.3.3.tgz#97893814e92abd2c534de422cb377e0e0bdaac94"
