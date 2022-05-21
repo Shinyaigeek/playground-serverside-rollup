@@ -20,5 +20,8 @@
   "dependencies": {
     "rollup": "^2.74.1",
     "vitest": "^0.12.8"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4"
   }
 }
