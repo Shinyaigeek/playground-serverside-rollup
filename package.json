@@ -1,0 +1,24 @@
+{
+  "name": "playground-serverside-rollup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shinyaigeek/playground-serverside-rollup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shinyaigeek/playground-serverside-rollup/issues"
+  },
+  "homepage": "https://github.com/Shinyaigeek/playground-serverside-rollup#readme",
+  "dependencies": {
+    "rollup": "^2.74.1",
+    "vitest": "^0.12.8"
+  }
+}
